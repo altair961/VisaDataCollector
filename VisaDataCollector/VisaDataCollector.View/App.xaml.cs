@@ -1,6 +1,5 @@
 ﻿using Autofac;
 using System.Windows;
-using VisaDataCollector.ViewModel;
 
 namespace VisaDataCollector.View
 {
