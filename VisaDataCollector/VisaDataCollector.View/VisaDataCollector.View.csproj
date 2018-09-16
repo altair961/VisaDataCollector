@@ -48,6 +48,7 @@
     <Compile Include="ApplicationGroupManagerView.xaml.cs">
       <DependentUpon>ApplicationGroupManagerView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BootStrapper.cs" />
     <Compile Include="FingerprintsQualityReaderView.xaml.cs">
       <DependentUpon>FingerprintsQualityReaderView.xaml</DependentUpon>
     </Compile>
@@ -147,6 +148,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -157,6 +159,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.8.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.8.1\lib\net45\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />

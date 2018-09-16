@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using Autofac;
+using System.Windows;
 using VisaDataCollector.ViewModel;
 
 namespace VisaDataCollector.View
@@ -12,7 +13,10 @@ namespace VisaDataCollector.View
         {
             base.OnStartup(e);
 
-            var mainWindow = new MainWindow(new MainWindowViewModel());
+            var bootstrapper = new BootStrapper();
+            var container = bootstrapper.Bootstrapp();
+
+            var mainWindow = container.Resolve<MainWindow>();
             mainWindow.Show();
         }
     }
