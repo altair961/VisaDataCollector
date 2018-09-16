@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using VisaDataCollector.ViewModel;
 
 namespace VisaDataCollector.View
 {
@@ -7,9 +8,20 @@ namespace VisaDataCollector.View
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private MainWindowViewModel _mainWindowViewModel;
+
+        public MainWindow(MainWindowViewModel mainWindowViewModel)
         {
             InitializeComponent();
+            this.Loaded += MainWindow_Loaded;
+
+            _mainWindowViewModel = mainWindowViewModel;
+            DataContext = _mainWindowViewModel;
+        }
+
+        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            _mainWindowViewModel.Load();
         }
     }
 }

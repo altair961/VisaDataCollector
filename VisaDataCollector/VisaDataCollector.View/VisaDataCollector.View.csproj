@@ -168,6 +168,12 @@
     <Reference Include="WindowsBase" />
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VisaDataCollector.ViewModel\VisaDataCollector.ViewModel.csproj">
+      <Project>{c4587571-3139-4631-b769-d4ea3a65139d}</Project>
+      <Name>VisaDataCollector.ViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
