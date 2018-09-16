@@ -5,7 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VisaDataCollector.View"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="576" Width="960">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24" />
+            <RowDefinition Height="39" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="22" />
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0">
+            Menu
+        </Button>
+        <Button Grid.Row="1">
+            Tab Bar
+        </Button>
+        <Rectangle Grid.Row="2" Fill="Gray">
+        </Rectangle>
+        <Button Grid.Row="3">
+            Status
+        </Button>
     </Grid>
 </Window>

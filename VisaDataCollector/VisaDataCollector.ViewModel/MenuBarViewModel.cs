@@ -1,6 +1,6 @@
 ﻿namespace VisaDataCollector.ViewModel
 {
-    public class MainViewModel
+    public class MenuBarViewModel : ViewModelBase
     {
     }
 }
