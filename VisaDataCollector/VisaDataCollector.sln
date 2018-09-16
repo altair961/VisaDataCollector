@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector", "VisaDataCollector\VisaDataCollector.csproj", "{BA089A0C-B555-494D-A495-E375EAF2F1B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.View", "VisaDataCollector.View\VisaDataCollector.View.csproj", "{9CABBEE2-1AE4-4A7B-8F38-9F1444747035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.ViewModel", "VisaDataCollector.ViewModel\VisaDataCollector.ViewModel.csproj", "{C4587571-3139-4631-B769-D4EA3A65139D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BA089A0C-B555-494D-A495-E375EAF2F1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA089A0C-B555-494D-A495-E375EAF2F1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA089A0C-B555-494D-A495-E375EAF2F1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA089A0C-B555-494D-A495-E375EAF2F1B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CABBEE2-1AE4-4A7B-8F38-9F1444747035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CABBEE2-1AE4-4A7B-8F38-9F1444747035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CABBEE2-1AE4-4A7B-8F38-9F1444747035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CABBEE2-1AE4-4A7B-8F38-9F1444747035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4587571-3139-4631-B769-D4EA3A65139D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4587571-3139-4631-B769-D4EA3A65139D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4587571-3139-4631-B769-D4EA3A65139D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4587571-3139-4631-B769-D4EA3A65139D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
