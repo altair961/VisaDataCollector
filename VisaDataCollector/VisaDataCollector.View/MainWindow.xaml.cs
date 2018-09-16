@@ -1,5 +1,5 @@
 ﻿using System.Windows;
-using VisaDataCollector.ViewModel;
+using VisaDataCollector.ViewModel.Implementations;
 
 namespace VisaDataCollector.View
 {

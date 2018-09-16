@@ -176,9 +176,13 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\VisaDataCollector.ViewModel\VisaDataCollector.ViewModel.csproj">
-      <Project>{c4587571-3139-4631-b769-d4ea3a65139d}</Project>
-      <Name>VisaDataCollector.ViewModel</Name>
+    <ProjectReference Include="..\VisaDataCollector.ViewModel.Implementations\VisaDataCollector.ViewModel.Implementations.csproj">
+      <Project>{C24EA6DE-0F4D-4574-8A91-34BCB2ACE49D}</Project>
+      <Name>VisaDataCollector.ViewModel.Implementations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VisaDataCollector.ViewModel.Interfaces\VisaDataCollector.ViewModel.Interfaces.csproj">
+      <Project>{933FB780-2107-4B44-A63E-2EB39BF87E79}</Project>
+      <Name>VisaDataCollector.ViewModel.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

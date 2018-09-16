@@ -1,5 +1,6 @@
 ﻿using Autofac;
-using VisaDataCollector.ViewModel;
+using VisaDataCollector.ViewModel.Implementations;
+using VisaDataCollector.ViewModel.Interfaces;
 
 namespace VisaDataCollector.View
 {
@@ -11,6 +12,8 @@ namespace VisaDataCollector.View
 
             builder.RegisterType<MainWindow>().AsSelf();
             builder.RegisterType<MainWindowViewModel>().AsSelf();
+
+            builder.RegisterType<VisaApplicationManagerViewModel>().As<IVisaApplicationManagerViewModel>();
 
             return builder.Build();
         }

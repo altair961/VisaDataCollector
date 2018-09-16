@@ -16,6 +16,10 @@ namespace VisaDataCollector.View
             var container = bootstrapper.Bootstrapp();
 
             var mainWindow = container.Resolve<MainWindow>();
+
+            //WindowViewLoaderService.Register(TypeOf(MainWindowView), TypeOf(MainWindowViewModel);
+            //WindowViewLoaderService.Register(TypeOf(MyWindowView), TypeOf(MyWindowViewModel);
+
             mainWindow.Show();
         }
     }

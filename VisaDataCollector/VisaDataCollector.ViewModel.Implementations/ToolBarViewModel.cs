@@ -1,4 +1,4 @@
-﻿namespace VisaDataCollector.ViewModel
+﻿namespace VisaDataCollector.ViewModel.Implementations
 {
     public class ToolbarViewModel : ViewModelBase
     {

@@ -5,11 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.View", "VisaDataCollector.View\VisaDataCollector.View.csproj", "{9CABBEE2-1AE4-4A7B-8F38-9F1444747035}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.ViewModel", "VisaDataCollector.ViewModel\VisaDataCollector.ViewModel.csproj", "{C4587571-3139-4631-B769-D4EA3A65139D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.WinViewLoader.Implementations", "VisaDataCollector.WinViewLoader.Implementations\VisaDataCollector.WinViewLoader.Implementations.csproj", "{9C7ED338-A252-4ECA-8C79-BECFD13D4526}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.WinViewLoader.Interfaces", "VisaDataCollector.WinViewLoader.Interfaces\VisaDataCollector.WinViewLoader.Interfaces.csproj", "{1F16E645-4575-478B-942D-1E094F7F5CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.ViewModel.Interfaces", "VisaDataCollector.ViewModel.Interfaces\VisaDataCollector.ViewModel.Interfaces.csproj", "{933FB780-2107-4B44-A63E-2EB39BF87E79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.ViewModel.Implementations", "VisaDataCollector.ViewModel.Implementations\VisaDataCollector.ViewModel.Implementations.csproj", "{C24EA6DE-0F4D-4574-8A91-34BCB2ACE49D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +23,6 @@ Global
 		{9CABBEE2-1AE4-4A7B-8F38-9F1444747035}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CABBEE2-1AE4-4A7B-8F38-9F1444747035}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CABBEE2-1AE4-4A7B-8F38-9F1444747035}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C4587571-3139-4631-B769-D4EA3A65139D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4587571-3139-4631-B769-D4EA3A65139D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4587571-3139-4631-B769-D4EA3A65139D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4587571-3139-4631-B769-D4EA3A65139D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9C7ED338-A252-4ECA-8C79-BECFD13D4526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9C7ED338-A252-4ECA-8C79-BECFD13D4526}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C7ED338-A252-4ECA-8C79-BECFD13D4526}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +31,14 @@ Global
 		{1F16E645-4575-478B-942D-1E094F7F5CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F16E645-4575-478B-942D-1E094F7F5CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F16E645-4575-478B-942D-1E094F7F5CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933FB780-2107-4B44-A63E-2EB39BF87E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933FB780-2107-4B44-A63E-2EB39BF87E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933FB780-2107-4B44-A63E-2EB39BF87E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933FB780-2107-4B44-A63E-2EB39BF87E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24EA6DE-0F4D-4574-8A91-34BCB2ACE49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24EA6DE-0F4D-4574-8A91-34BCB2ACE49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24EA6DE-0F4D-4574-8A91-34BCB2ACE49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24EA6DE-0F4D-4574-8A91-34BCB2ACE49D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

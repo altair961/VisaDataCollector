@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace VisaDataCollector.ViewModel
+namespace VisaDataCollector.ViewModel.Implementations
 {
     public class ViewModelBase : INotifyPropertyChanged
     {
