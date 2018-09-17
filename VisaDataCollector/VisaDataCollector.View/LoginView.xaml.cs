@@ -18,7 +18,7 @@ namespace VisaDataCollector.View
     /// <summary>
     /// Interaction logic for LoginViewModel.xaml
     /// </summary>
-    public partial class LoginViewModel : UserControl
+    public partial class LoginView : UserControl
     {
         public LoginViewModel()
         {

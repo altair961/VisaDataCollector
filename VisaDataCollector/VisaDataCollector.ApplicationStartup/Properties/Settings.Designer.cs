@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace VisaDataCollector.View.Properties
+namespace VisaDataCollector.ApplicationStartup.Properties
 {
 
 

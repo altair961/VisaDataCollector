@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.View", "VisaDataCollector.View\VisaDataCollector.View.csproj", "{9CABBEE2-1AE4-4A7B-8F38-9F1444747035}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.WinViewLoader.Implementations", "VisaDataCollector.WinViewLoader.Implementations\VisaDataCollector.WinViewLoader.Implementations.csproj", "{9C7ED338-A252-4ECA-8C79-BECFD13D4526}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.WinViewLoader.Interfaces", "VisaDataCollector.WinViewLoader.Interfaces\VisaDataCollector.WinViewLoader.Interfaces.csproj", "{1F16E645-4575-478B-942D-1E094F7F5CB5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.ViewModel.Interfaces", "VisaDataCollector.ViewModel.Interfaces\VisaDataCollector.ViewModel.Interfaces.csproj", "{933FB780-2107-4B44-A63E-2EB39BF87E79}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.ViewModel.Implementations", "VisaDataCollector.ViewModel.Implementations\VisaDataCollector.ViewModel.Implementations.csproj", "{C24EA6DE-0F4D-4574-8A91-34BCB2ACE49D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.ApplicationStartup", "VisaDataCollector.ApplicationStartup\VisaDataCollector.ApplicationStartup.csproj", "{34BC575F-DF8A-42EC-8F38-06023D3F04A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaDataCollector.View", "VisaDataCollector.View\VisaDataCollector.View.csproj", "{8349D1EE-B6A5-40EB-8EC9-38A4D2B79388}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,18 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9CABBEE2-1AE4-4A7B-8F38-9F1444747035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CABBEE2-1AE4-4A7B-8F38-9F1444747035}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CABBEE2-1AE4-4A7B-8F38-9F1444747035}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CABBEE2-1AE4-4A7B-8F38-9F1444747035}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C7ED338-A252-4ECA-8C79-BECFD13D4526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C7ED338-A252-4ECA-8C79-BECFD13D4526}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C7ED338-A252-4ECA-8C79-BECFD13D4526}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C7ED338-A252-4ECA-8C79-BECFD13D4526}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1F16E645-4575-478B-942D-1E094F7F5CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F16E645-4575-478B-942D-1E094F7F5CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F16E645-4575-478B-942D-1E094F7F5CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F16E645-4575-478B-942D-1E094F7F5CB5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{933FB780-2107-4B44-A63E-2EB39BF87E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{933FB780-2107-4B44-A63E-2EB39BF87E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{933FB780-2107-4B44-A63E-2EB39BF87E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +25,14 @@ Global
 		{C24EA6DE-0F4D-4574-8A91-34BCB2ACE49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C24EA6DE-0F4D-4574-8A91-34BCB2ACE49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C24EA6DE-0F4D-4574-8A91-34BCB2ACE49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BC575F-DF8A-42EC-8F38-06023D3F04A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BC575F-DF8A-42EC-8F38-06023D3F04A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BC575F-DF8A-42EC-8F38-06023D3F04A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BC575F-DF8A-42EC-8F38-06023D3F04A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8349D1EE-B6A5-40EB-8EC9-38A4D2B79388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8349D1EE-B6A5-40EB-8EC9-38A4D2B79388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8349D1EE-B6A5-40EB-8EC9-38A4D2B79388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8349D1EE-B6A5-40EB-8EC9-38A4D2B79388}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

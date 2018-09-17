@@ -1,7 +1,8 @@
 ﻿using Autofac;
 using System.Windows;
+using VisaDataCollector.ViewModel.Implementations;
 
-namespace VisaDataCollector.View
+namespace VisaDataCollector.ApplicationStartup
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -12,13 +13,10 @@ namespace VisaDataCollector.View
         {
             base.OnStartup(e);
 
-            var bootstrapper = new BootStrapper();
-            var container = bootstrapper.Bootstrapp();
+            var bootstarpper = new Bootstrapper();
+            var container = bootstarpper.Bootstrap();
 
             var mainWindow = container.Resolve<MainWindow>();
-
-            //WindowViewLoaderService.Register(TypeOf(MainWindowView), TypeOf(MainWindowViewModel);
-            //WindowViewLoaderService.Register(TypeOf(MyWindowView), TypeOf(MyWindowViewModel);
 
             mainWindow.Show();
         }
